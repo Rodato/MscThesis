@@ -1,3 +1,5 @@
+#This make new colllections with papers that have only the full text
+
 import pymongo
 client=pymongo.MongoClient("localhost",27017)
 db=client.publications
